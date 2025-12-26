@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Quantico:ital,wght@1,400;1,700&display=swap');
+
+html {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #0e0e0e;
+  color: #fff;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  flex-direction: column;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: xx-large;
+  margin: 0;
+}
+
+h1 {
+  visibility: hidden;
+}
+
+p {
+  margin-top: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+a {
+  height: 32px;
+  aspect-ratio: 1/1;
+}
+
+.socials-icon {
+  fill: #fff;
+  width: 100%;
+  transition: fill 0.2s ease-in-out;
+  &:hover {
+    fill: #df52ff;
+  }
+}
